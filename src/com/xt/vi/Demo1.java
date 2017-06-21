@@ -8,5 +8,9 @@ public class Demo1 {
 		String s2="abc";
 		System.out.println(s1==s2);
 		System.out.println(s1.equals(s2));
+		
+		
+		
+		
 	}
 }
