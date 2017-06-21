@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html [
+	<!ELEMENT html (head,body)>
+	<!ELEMENT head (title)>
+	<!ELEMENT body (form|div|table|span)*>
+	<!ELEMENT table (tr)+>
+	<!ELEMENT tr (td)>
+	<!ELEMENT td (#PCDATA)>
+	<!ATTLIST table id>
+]>
+<html>
+	<head>
+		<title>学生信息</title>
+	</head>
+	<body>
+		<form></form>
+		<div>我来自湖北科技学院</div>
+		<table id="student">
+			<tr>
+				<td>姓名</td>
+				<td>性别</td>
+				<td>年龄</td>
+				<td>兴趣</td>
+			</tr>
+			<tr>
+				<td>熊磊</td>
+				<td>女</td>
+				<td>11</td>
+				<td>吹牛逼</td>
+			</tr>
+			<tr>
+				<td>张三</td>
+				<td>男</td>
+				<td>18</td>
+				<td>打太极拳</td>
+			</tr>
+			<tr>
+				<td>李四</td>
+				<td>男</td>
+				<td>19</td>
+				<td>打铁</td>
+			</tr>
+			<tr>
+				<td>王大锤</td>
+				<td>男</td>
+				<td>15</td>
+				<td>被虐</td>
+			</tr>
+		</table>
+		<span>我来迅腾科技学习java</span>
+	</body>
+</html>
